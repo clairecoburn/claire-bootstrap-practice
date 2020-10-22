@@ -6,6 +6,23 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+.jumbotron {
+  background-image: url(../img/pirate-ship.jpg);
+  background-size: cover;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  color: white;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 

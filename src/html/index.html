@@ -5,11 +5,71 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <!-- Content starts here -->
-    <p>Testing: 1, 2, 3, 4</p>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Pirate Cove</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Story</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <h1 class="display-4">The Ship's Log</h1>
+        <p class="lead">A diary by Capt. Crit 'Red Beard' McGillicutty</p>
+      </div>
+      <section>
+        <div class="row">
+          <div class="col-sm-4 col-lg-12">
+            <div class="card mb-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">"Calico Jack" Rackham</h5>
+                <p class="card-text">An English pirate captain operating in the Bahamas and Cuba towards the end of the "Golden Age of Piracy".</p>
+                <a href="https://en.wikipedia.org/wiki/Calico_Jack" class="card-link">Rackham rewards</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-12">
+            <div class="card mb-4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Blackbeard</h5>
+                <p class="card-text">Edward Teach was an English pirate who operated around the West Indies.</p>
+                <a href="https://en.wikipedia.org/wiki/Blackbeard" class="card-link">Teach tidbits</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: grey;
+          color:black;
+          text-align: center;
+          padding-top: 2%;
+        }
+        </style>
+        
+        <div class="footer">
+          <p>A class project by Claire Coburn</p>
+        </div>
 
     <!-- Closing scripts here -->
     <script src="js/jquery.js"></script>
